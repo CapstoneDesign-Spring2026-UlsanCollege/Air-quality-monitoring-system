@@ -1,14 +1,5 @@
-# TEAM AGREEMENT - Air Quality Monitoring System
-
-This document is our **team constitution**.
-
-It defines how our team will work together, communicate, resolve conflicts, and ensure that every member contributes to the success of the project.
-
-Clear agreements help teams avoid misunderstandings and maintain productive collaboration throughout the semester.
-
-This agreement may be updated during the semester if all team members agree and the change is recorded in the repository.
-
----
+# Air Quality Monitoring System
+An Air Quality Monitoring System (AQMS) is a system used to measure, analyze, and report the level of pollution in the air. It collects data about harmful gases and particles in the atmosphere and shows whether the air is safe or unhealthy for people, animals, and the environment.
 
 # Team Information
 
@@ -20,194 +11,111 @@ Air Quality Monitoring System
 
 https://github.com/CapstoneDesign-Spring2026-UlsanCollege/Air-quality-monitoring-system
 
-**Members**
+**Team Members**
 
-| Name | Role Rotation (first week) |
+| Name | Role Rotation (First Week) |
+|------|----------------------------|
+| Bidhan Pokhrel | Project Manager |
+| Suvakar Dahal | Scribe |
+| Sunil Tamang | QA Lead |
+| Nima Lama | Demo Driver |
+
+---
+
+
+# Problem Statement
+
+Many communities face unhealthy air quality due to industrial emissions, traffic congestion, and seasonal pollution.
+
+Citizens often lack access to real-time and accurate information about air pollution levels. Without proper monitoring, people may remain unaware of potential health risks, and authorities may struggle to respond quickly.
+
+Our system provides real-time monitoring, alerts, and environmental insights to improve public health and support environmental planning.
+
+---
+
+# Target Users
+
+The main users of this system include:
+
+- Government agencies monitoring pollution levels
+- City planners managing urban environments
+- Industries tracking emissions for compliance
+- Researchers studying environmental trends
+- Public and health organizations monitoring air safety
+
+---
+
+# Project Goal
+
+The goal of this project is to develop an **Air Quality Monitoring System** that allows users to monitor pollution levels in real time.
+
+The system will display air quality data, provide alerts when pollution reaches dangerous levels, and allow users to review historical pollution trends. It will also help researchers and authorities generate reports and identify pollution patterns.
+
+---
+
+# Core Features (First Version)
+
+- Real-time monitoring of pollutants (PM2.5, PM10, CO, NO₂, O₃)
+- Dashboard showing current air quality levels
+- Alerts and notifications when pollution exceeds safe limits
+- Historical air quality data visualization
+- Basic report generation
+
+---
+
+# Demo Scenario (Very Important)
+
+Step 1: User opens the air quality dashboard.
+
+Step 2: System displays current air pollution levels for the selected location.
+
+Step 3: Dashboard highlights areas where pollution exceeds safe limits and triggers alerts.
+
+Step 4: User views historical pollution trends from the past week.
+
+Step 5: User generates a simple pollution report.
+
+---
+
+# Minimum Viable Product (MVP)
+
+The MVP will include:
+
+- Dashboard displaying real-time air quality readings
+- Visual alerts when pollution levels are unsafe
+- Basic historical pollution data
+- Simple report generation for one location
+
+This MVP demonstrates the core concept of monitoring and alerting users about air pollution levels.
+
+---
+# Technology Stack
+
+| Area | Tool |
 |---|---|
-| Sunil Lama | Project Manager |
-| Nima Sherpa | Scribe |
-| Bidhan Pokhrel | QA Lead |
-| Suvakar Dahal | Demo Driver |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js / Express |
+| Database | MySQL |
+| Data Visualization | Chart.js |
+| Hosting | Vercel |
 
 ---
 
-# Team Roles (Rotate Weekly)
-
-Roles rotate every sprint so that every team member gains experience with different responsibilities.
-
-### PM (Project Manager)
-
-Responsible for:
-
-- coordinating team activities
-- managing weekly sprint tasks
-- ensuring progress is visible on GitHub
-- helping prepare sprint submissions
-
----
-
-### Scribe
-
-Responsible for:
-
-- recording team decisions
-- updating project documentation
-- noting blockers and risks
-- maintaining project records
-
----
-
-### QA Lead
-
-Responsible for:
-
-- testing features developed by the team
-- ensuring the system works correctly
-- checking the quality of the code and functionality
-- verifying demos before submission
-
----
-
-### Demo Driver
-
-Responsible for:
-
-- preparing the demo presentation
-- writing the demo script
-- running the system during the demonstration
-
----
-
-# Communication
-
-Our team will use the following communication tools:
-
-| Tool | Purpose |
-|---|---|
-| KakaoTalk | Daily team chat, quick updates, and meeting coordination |
-| Messenger | Sharing files, links, and project discussions |
-
----
-
-### Communication Expectations
-
-Our team agrees to:
-- share progress updates regularly
-- ask for help when facing problems instead of delaying work
-
----
-
-# Meeting Expectations
-
-Team meetings will normally happen:
-
-**After class or online when necessary.**
-
-Meetings will focus on:
-
-- reviewing current tasks
-- assigning new work
-- checking project progress
-- preparing sprint submissions
-
----
-
-# GitHub Workflow Rules
-
-Our team will follow this workflow:
-Issue → Branch → Pull Request → Merge → Evidence
-
-Rules:
-
-- All work should start with a **GitHub Issue**
-- Development will be done in **separate branches**
-- Changes will be merged through **Pull Requests**
-- Team members should review important work before merging
-
----
-
-# Evidence Rule
-
-This class uses an **evidence-based workflow**.
-
-Rule:
-
-> If it isn't linked, it didn't happen.
-
-Each team member must provide **2–3 pieces of evidence every week**.
-
-Examples include:
-
-- Pull request
-- Code commit
-- Issue created or closed
-- Documentation update
-- Screenshot of a working feature
-- Review comments
-
-Evidence should be posted as comments on the **Weekly Sprint Packet issue**.
-
----
-
-# Work Expectations
-
-Each team member agrees to:
-
-- contribute work every week
-- communicate problems early
-- respect team members’ time and effort
-- support each other during the project
-- maintain responsibility for assigned tasks
-
----
-
-# Missed Work
-
-If a team member misses assigned work:
-
-1. They must inform the team.
-2. They must complete the work later if possible.
-3. Repeated missed work may require instructor involvement.
-
----
-
-# Team Decision Rules
-
-Most decisions will be made by:
-Majority vote
-
-Major project changes will require:
-
-Full team agreement
-
----
-
-# Team Collaboration
-
-Our team agrees to support each other during the project.
-
-The goal is not only to complete the project, but also to work effectively together and continue learning as a team.
-
----
-
-# Updating This Agreement
-
-This document may be updated if:
-
-- all team members agree
-- the change is recorded in GitHub
-- the updated document is committed to the repository
-
----
-
-
-
-# Quick Reminder
-
-Strong teams usually:
-
-- communicate early
-- track work clearly
-- post evidence regularly
-- support each other
-- focus on completing working software
+# Weekly Development Process
+
+The team will work in **weekly sprints**.
+
+Typical cycle:
+Idea
+↓
+Issue
+↓
+Branch
+↓
+Pull Request
+↓
+Merge
+↓
+Demo
+
+Each week ends with a **Sprint Packet submission** documenting progress.
