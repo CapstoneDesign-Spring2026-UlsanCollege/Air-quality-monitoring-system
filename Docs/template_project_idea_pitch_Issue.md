@@ -108,8 +108,6 @@ The system will show pollution levels and display a visual alert when the air qu
 
 # 10. Scope Check
 
-Confirm that your project is:
-
 - [x] Demoable  
 - [x] Feasible  
 - [x] Well scoped  
@@ -118,12 +116,5 @@ This project focuses on a **simple dashboard with real-time data and alerts**, w
 
 ---
 
-# Instructor Review (leave blank)
-
-Comments:
-
-[instructor feedback]
-
-Suggested changes:
 
 [instructor suggestions]
