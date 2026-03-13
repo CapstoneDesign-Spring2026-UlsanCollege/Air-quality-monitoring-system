@@ -1,197 +1,108 @@
-<!--
-TEMPLATE - Project Idea Pitch Issue
-
-How to use this template:
-
-1. One team member creates this Issue.
-2. The team fills in all sections together.
-3. Keep answers short and clear.
-4. Link this Issue in your Sprint Packet if the idea changes later.
-
-Purpose:
-- Help the instructor review project ideas early
-- Make sure the project is demoable, feasible, and well scoped
--->
-
 # Project Idea Pitch
 
 ## Team
 
 **Team Name**
 
-[Team name]
+Air Quality Monitoring System
 
 **Members**
 
-- [Member 1]
-- [Member 2]
-- [Member 3]
-- [Member 4]
+- Sunil Lama
+- Nima Sherpa
+- Bidhan Pokhrel
+- Suvakar Dahal
 
 **Repository (if created)**
 
-[GitHub repository link]
-
+https://github.com/CapstoneDesign-Spring2026-UlsanCollege/Air-quality-monitoring-system
 
 ---
 
 # 1. Project Title
 
-[Short project title]
-
-Example:
-
-Campus Study Room Finder
-
+Air Quality Monitoring System
 
 ---
 
 # 2. Problem
 
-Describe the **real problem** your project solves.
+Air pollution is a serious issue in many cities due to industrial emissions, traffic, and seasonal pollution. Many citizens do not have access to real-time and accurate information about the air quality around them.
 
-Focus on a situation someone experiences.
-
-Example:
-
-> Students often struggle to find available study rooms on campus. Rooms may be empty but still marked as reserved.
-
-Your answer:
-
-[2-4 sentences]
-
+Without proper monitoring, people may be exposed to unhealthy air conditions without knowing the potential health risks. A system that monitors and reports air quality can help people stay informed and take preventive actions.
 
 ---
 
 # 3. Target Users
 
-Who will use this system?
+The main users of this system include:
 
-Examples:
-
-- students
-- teachers
-- small businesses
-- mobile users
-
-Your users:
-
-[Describe the main users]
-
+- Government agencies monitoring environmental conditions
+- City planners managing urban air pollution
+- Researchers studying environmental trends
+- Public and health organizations monitoring air safety
+- Citizens who want to check the air quality in their area
 
 ---
 
 # 4. What the System Will Do
 
-Explain **what the system will allow users to do**.
+The system will monitor air pollution levels and display real-time air quality information through a web-based dashboard.
 
-Example:
-
-> Users can see available study rooms and reserve them for a time slot.
-
-Your description:
-
-[2-4 sentences]
-
+Users will be able to view pollution levels such as PM2.5, PM10, CO, NO₂, and O₃. The system will also alert users when pollution levels exceed safe limits and allow users to view historical air quality data.
 
 ---
 
 # 5. Core Features (First Version)
 
-List **3-5 key features**.
-
-These should be realistic to build in one semester.
-
-Example:
-
-- View available rooms
-- Reserve a room
-- Cancel reservation
-- Show room schedule
-
-Your features:
-
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Feature 4]
-- [Feature 5]
+- Real-time monitoring of air pollutants
+- Air quality dashboard displaying pollution levels
+- Alerts when pollution exceeds safe limits
+- Visualization of historical air quality data
+- Basic report generation for air pollution trends
 
 ---
 
 # 6. Demo Scenario
 
-Describe **exactly what will happen during your demo**.
-
-Example:
-
 Step 1  
-User opens the website.
+User opens the Air Quality Monitoring System dashboard.
 
 Step 2  
-User views available study rooms.
+The system displays the current air pollution levels for a selected location.
 
 Step 3  
-User reserves a room.
+The dashboard visualizes pollution data using charts and graphs.
 
 Step 4  
-Reservation appears on the schedule.
-
-Your demo:
-
-Step 1:
-Step 2:
-Step 3:
-Step 4:
-
+If pollution exceeds safe limits, the system shows an alert notification.
 
 ---
 
 # 7. Minimum Viable Product (MVP)
 
-Describe the **smallest version of your system that still works**.
+The MVP will include a simple web dashboard that displays air quality data for one location.
 
-Your MVP should:
-
-- demonstrate the core idea
-- be easy to demo
-- be achievable early in the semester
-
-Your MVP:
-
-[Describe the smallest working version]
-
+The system will show pollution levels and display a visual alert when the air quality becomes unsafe. It will also allow users to view basic historical air quality data.
 
 ---
 
 # 8. Technology Plan
 
-List the tools you expect to use.
-
 | Area | Tool |
 | --- | --- |
-| Frontend | |
-| Backend | |
-| Database | |
-| Hosting | |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js / Express |
+| Database | MySQL |
+| Hosting | Vercel |
 
 ---
 
 # 9. Risks or Unknowns
 
-List anything that might make the project difficult.
-
-Examples:
-
-- new technology
-- unclear requirements
-- integration challenges
-
-Your risks:
-
-- [Risk 1]
-- [Risk 2]
-- [Risk 3]
+- Difficulty finding a reliable air quality data API
+- Integration challenges between frontend and backend
+- Limited time for implementing advanced features
 
 ---
 
@@ -199,14 +110,11 @@ Your risks:
 
 Confirm that your project is:
 
-- [ ] Demoable  
-- [ ] Feasible  
-- [ ] Well scoped  
+- [x] Demoable  
+- [x] Feasible  
+- [x] Well scoped  
 
-If any of these are uncertain, explain:
-
-[short explanation]
-
+This project focuses on a **simple dashboard with real-time data and alerts**, which is achievable within one semester.
 
 ---
 
